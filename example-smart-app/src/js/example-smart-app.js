@@ -49,8 +49,8 @@
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
-          p.height = getQuantityValueAndUnit(height1[0]);
-          p.weight = getQuantityValueAndUnit(height[0]);
+          p.height1 = getQuantityValueAndUnit(height1[0]);
+          p.height = getQuantityValueAndUnit(height[0]);
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
           }
@@ -80,8 +80,8 @@
       lname: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
+      height1: {value: ''},
       height: {value: ''},
-      weight: {value: ''},
       systolicbp: {value: ''},
       diastolicbp: {value: ''},
       ldl: {value: ''},
